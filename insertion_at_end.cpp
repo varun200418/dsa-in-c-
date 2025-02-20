@@ -43,3 +43,16 @@ int main() {
     list.display();
     return 0;
 }
+//Explanation for Insertion at the End in a Singly Linked List://
+
+  //  Create a New Node
+    //    Allocate memory for a new node using new Node(val).
+     //   Assign the given value to data and set next to nullptr.
+
+   // Check if the List is Empty
+    //    If head is nullptr, set head to the new node and return.
+
+   // Traverse to the End
+    //    Use a temporary pointer (temp) to iterate from head to the last node (where temp->next == nullptr).
+   // Attach the New Node
+     //   Set temp->next to the new node.//
